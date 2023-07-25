@@ -47,7 +47,7 @@ class MainTileService : CoroutinesTileService() {
 private fun tileLayout(context: Context): LayoutElementBuilders.LayoutElement {
     return PrimaryLayout.Builder(buildDeviceParameters(context.resources))
         .setContent(
-            Text.Builder(context, "Hello World!")
+            Text.Builder(context, "Welcome")
                 .setTypography(Typography.TYPOGRAPHY_CAPTION1)
                 .build()
         ).build()
